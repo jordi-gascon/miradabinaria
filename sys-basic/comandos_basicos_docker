@@ -1,0 +1,16 @@
+docker pull NOMBREIMAGEN #Este comando sirve para descargar una imagen 
+docker images  #muestra imágenes que tenemos descargadas
+docker ps -a    #muestra que contenedores estan funcionando
+docker rmi  IMAGE_ID
+docker info  #Muestra informacion de las imagenes, tamaño , fecha creacion  nombre ,…
+docker search NAME   #para buscar in docker
+docker inspect <friendly-name|container-id> #para saber acerca del contenedor
+docker logs <friendly-name|container-id>
+
+docker start
+docker stop
+docker kill
+docker rm
+Docker composer
+docker-compose up -d  // Levantar la maquina con un fichero docker-compose  hay que entrar en la carpeta donde este el fichero
+docker-compose down
